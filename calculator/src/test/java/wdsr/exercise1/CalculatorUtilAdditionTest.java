@@ -31,5 +31,5 @@ public class CalculatorUtilAdditionTest {
 		// then
 		assertEquals("2 + 2 = 4", result);
 		verify(calculator).add(anyInt(), anyInt()); // check if our calculator mock was really invoked.
-	}	
+	}
 }
